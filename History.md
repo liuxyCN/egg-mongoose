@@ -1,4 +1,18 @@
 
+3.3.1 / 2020-10-16
+==================
+
+  * fix: upgrade mongoose to adapter Node.js v14.
+
+3.3.0 / 2020-08-13
+==================
+
+**features**
+  * [[`67f8f1f`](http://github.com/eggjs/egg-mongoose/commit/67f8f1fa828cc1795ee3d2c995e2a5206ebed741)] - feat: support plugins for special clients (#41) (ChangedenChan <<changeden520@gmail.com>>)
+
+**fixes**
+  * [[`8ef2ebc`](http://github.com/eggjs/egg-mongoose/commit/8ef2ebc68aa3199493fcabbaa6455f0e38c8322a)] - fix: doc typo. (#40) (duncup <<dlmsoft.wolf@gmail.com>>)
+
 3.2.0 / 2019-05-16
 ==================
 

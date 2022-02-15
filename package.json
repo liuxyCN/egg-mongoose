@@ -1,6 +1,6 @@
 {
   "name": "egg-mongoose",
-  "version": "3.2.0",
+  "version": "3.3.1",
   "description": "egg mongoose plugin",
   "eggPlugin": {
     "name": "mongoose"
@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/mongoose": "^5.3.24",
     "await-first": "^1.0.0",
-    "mongoose": "^5.4.20"
+    "mongoose": "^5.10.9"
   },
   "devDependencies": {
     "autod": "^3.0.1",

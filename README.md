@@ -95,12 +95,16 @@ exports.mongoose = {
     db1: {
       url: 'mongodb://127.0.0.1/example1',
       options: {},
+      // client scope plugin array
+      plugins: []
     },
     db2: {
       url: 'mongodb://127.0.0.1/example2',
       options: {},
     },
   },
+  // public scope plugin array
+  plugins: []
 };
 ```
 
@@ -114,8 +118,8 @@ module.exports = app => {
   const conn = app.mongooseDB.get('db1'); 
 
   const UserSchema = new Schema({
-    userName: { type: String  },
-    password: { type: String  },
+    userName: { type: String },
+    password: { type: String },
   });
 
   return conn.model('User', UserSchema);
